@@ -1,0 +1,16 @@
+[package]
+name = "blockchain_simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"              # Web framework for the API and serving files
+serde = { version = "1.0", features = ["derive"] }  # JSON serialization
+serde_json = "1.0"        # JSON handling
+sha2 = "0.10"             # Hashing for proof-of-work
+tokio = { version = "1.0", features = ["full"] }    # Async runtime
+chrono = "0.4"            # Timestamps for blocks
+thiserror = "1.0"         # Custom error handling
+tower-http = { version = "0.5", features = ["fs"] } # Serve static files
+simple_logger = "4.3.0"
+log = "0.4"
