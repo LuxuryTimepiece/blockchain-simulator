@@ -2,7 +2,7 @@
 
 A blockchain simulator built with Rust (backend), Vue.js (frontend), and Tailwind CSS for styling. Features a real-time chart of mining times and a scrollable table of blocks.
 
-## Screenshot
+## Demo
 
 ![Blockchain Simulator Screenshot](https://raw.githubusercontent.com/LuxuryTimepiece/blockchain-simulator/refs/heads/main/goodlookingapp.png)
 
