@@ -58,4 +58,4 @@ A blockchain simulator built with Rust (backend), Vue.js (frontend), and Tailwin
 
    ## License
    [MIT License](LICENSE)
-   ```
+
